@@ -11,4 +11,10 @@ Thumbs.db
 ##############################
 readme.txt
 template.php
+amrapali-dev.tmproj
 
+# image files #
+###############
+*.jpg
+*.png
+*.gif
