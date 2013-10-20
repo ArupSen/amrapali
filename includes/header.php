@@ -12,7 +12,7 @@ include_once DATAPATH.'meta_tags.php';
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<?php // leave in during development and remove once live ?>
 	<meta name="robots" content="noindex, nofollow">
 	
@@ -35,5 +35,7 @@ include_once DATAPATH.'meta_tags.php';
 </head>
 <body id="<?php echo $filename; ?>">
 	<div id="wrap">
-	<h1>Amrapali</h1>
-	<h2 id="subheading">JAIPUR</h2>
+		<div id="heading">
+			<h1 id="mainheading">Amrapali</h1>
+			<h2 id="subheading">JAIPUR</h2>
+		</div>
