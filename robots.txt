@@ -1,4 +1,4 @@
-# for --name of website--
+# for amrapali.com
 # by Arup Sen http://arupdesigns.co.uk
 
 User-agent: *
@@ -10,4 +10,5 @@ Disallow: /data/
 Disallow: /includes/
 Disallow: /inc_path.php
 Disallow: /template.php
+Disallow: /mail_form.php
 Disallow: /
