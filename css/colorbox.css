@@ -28,7 +28,7 @@
         #cboxLoadedContent{background:#a85; padding:1px;}
         #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
         #cboxLoadingOverlay{background:#DFDFDF;}
-        #cboxTitle{position:absolute; top:-32px; left:10px; color:#a85;font-family: 'Quattocento Sans', sans-serif; letter-spacing: 2px; font-size: 12px; width: 700px; text-align:center; text-transform: uppercase;font-weight: bold;}
+        #cboxTitle{position:absolute; bottom:12px; left:1px; color:#a85;font-family: 'Quattocento Sans', sans-serif; letter-spacing: 2px; font-size: 12px; width: 700px; text-align:center; text-transform: uppercase;font-weight: bold;background:#fff;opacity:0.8;padding-top:5px;}
         #cboxCurrent{position:absolute; top:-22px; right:205px; text-indent:-9999px;}
 
         /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
