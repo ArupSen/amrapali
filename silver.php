@@ -38,7 +38,7 @@ $ext = '.jpg';
   <hr />
   <h2>SILVER JEWELLERY</h2> 
   <hr />
-  <p>Sourcing inspirations from various tribes visited, the designs of our silver explore off-beaten tracks. A wonderfully strange synergy gently simmers to the surface and is captured in our magnificent Handcrafted jewellery.</p>
+  <p>Sourcing inspirations from various tribes, the designs of our silver explore off-beaten tracks. To view and shop our entire Silver jewellery range, please visit our e-store <a href="www.tribebyamrapali.com">www.tribebyamrapali.com</a></p>
 </div>
 <script>
 	<?php 
