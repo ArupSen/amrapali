@@ -7,7 +7,7 @@ navbar();
 // the unique contents will go here up to the footer
 
 ?>
-<?php img_tag('Manish-Arora.jpg', '', 'collections-logo'); ?>
+<?php img_tag('Manish_Arora_SS13.jpg', '', 'collections-logo'); ?>
 <?php
 /* 
 Clicking on a thumbnail image pops up larger one in lightbox (colorbox)

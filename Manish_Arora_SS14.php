@@ -7,7 +7,7 @@ navbar();
 // the unique contents will go here up to the footer
 
 ?>
-<?php img_tag('Manish-Arora.jpg', '', 'collections-logo'); ?>
+<?php img_tag('Manish_Arora_SS14.jpg', '', 'collections-logo'); ?>
 <?php
 /* notes on the new collection layout
 The basic layout is a tiled selection of 'cropped' close up images
