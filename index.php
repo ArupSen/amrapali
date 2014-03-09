@@ -20,7 +20,7 @@ navbar();
 <!-- Section #2 / Background Only -->
 <section id="second" class="story first" data-speed="8" data-type="background">
 	<article>
-		<img src="images/muse_txt.png" alt="tutorial-title" width="782" height="364" />
+	<!--	<img src="images/muse_txt.png" alt="tutorial-title" width="782" height="364" /> -->
   <div class="muse-text">
 <h3>THE WORLD OF AMRAPALI</h3>
 <hr />
@@ -36,7 +36,7 @@ navbar();
 <section id="third" class="story first" data-speed="8" data-type="background">    	
 	<!-- <div class="photograph" data-type="sprite" data-offsetY="1250" data-Xposition="25%" data-speed="2"></div> -->
 	<article>
-		<img src="images/heritage_txt.png" alt="tutorial-title" width="887" height="316" />
+		<!-- <img src="images/heritage_txt.png" alt="tutorial-title" width="887" height="316" /> -->
 	    
   <div class="heritage-text">
 <h3>TREASURES FROM THE</h3>
@@ -71,7 +71,7 @@ navbar();
 <hr />
 <p>Renowned for its signature magnificent pieces and rare craftsmanship, Amrapali harmonizes classical tradition, with modern interpretation of ancient aesthetic and techniques.</p>
   </div>  
-		<img src="images/craftmanship_txt.png" alt="craftmanship-title" width="939" height="309" />
+<!--		<img src="images/craftmanship_txt.png" alt="craftmanship-title" width="939" height="309" /> -->
 		
     </article>
 </section>
