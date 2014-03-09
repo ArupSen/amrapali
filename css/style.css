@@ -1,5 +1,5 @@
 /*
-Stylesheet for amrapali dev site
+Stylesheet for amrapali site
 Date: October 2013
 Author: Arup Sen
 http://arupdesigns.co.uk
@@ -27,8 +27,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-family: inherit;
 	text-align: left;
 	vertical-align: baseline;
+  outline: none;
 }
-a img, :link img, :visited img {border: 0;}
+a img, :link img, :visited img {border: 0; outline: none;}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;}
@@ -40,48 +41,614 @@ blockquote:before, blockquote:after {
 		
 /* COLOUR PALETTE
 
-#f5001b - muted red header bg & red headings
-#a58352 - gold colour for body text, also for borders and shadows
+#f3011c - muted red header bg & red headings
+#976d31 - gold colour for nav background 
+#a58252 - gold borders and text
 #ffffff - white body background
 #000000 - black mystery slide bg
 #5b4721 - golden muse slide bg
-#0e0a06 - dark brown heretic slide bg
+#0e0a06 - dark brown heritage slide bg
 #121111 - dark grey passion slide bg
 
 */
 
 /* BG IMAGE PATH url('../images/my_image.gif') */
 /*the main global rules*/
-body{font-family:'Quattocento Sans', sans-serif;font-size:100.01%;position:relative;margin:0 auto;background-color:#FFFFFF;}
-div#wrap{}
-	
-	
-/*grouped selectors - good for position:absolute and relative*/
 
+body{font-family:'Quattocento Sans', sans-serif;font-size:100.01%;position:relative;margin:0 auto;background-color:#FFFFFF;}
+	
 
 /*main heading and sub heading*/
-
-
+#heading {
+background: url('../images/logo-use.png') no-repeat 50% 5%, url('../images/sqiggles-sharper.png') no-repeat 50% 50%;
+background-color: #FDFDFA;
+height: 180px;
+}
+#heading h1, #heading h2 {
+	font-size:0;
+}
+/* social links */
+.social_links {
+    position: relative;
+    left: 175px;
+    top: -18px;
+	z-index: 31;
+    
+}
+.social_links li {
+    margin-left: -3px !important;
+}
+.social_links img {
+    width: 38px;
+}
+.social_links a {
+	background: transparent;
+	display: block;
+	width: 30px;
+	height: 35px;
+}
+.social_links a.facebook_link {
+	background: url('../images/Social-media-Icons-use.png') no-repeat 1px 1px;
+}
+.social_links a.twitter_link {
+	background: url('../images/Social-media-Icons-use.png') no-repeat 54% 8%;
+}
+.social_links a.instagram_link {
+	background: url('../images/Social-media-Icons-use.png') no-repeat 107% 8%;
+}
 	
 /*content area*/
-div#contents{}
-#contents p{}
-
-#contents ul, #contents h2{}
-
-#contents h2{}
-#contents li{}
-#contents a{}
-#contents a:hover{}
-
+div#contents{
+	margin-top: -6px;
+}
 	
 /*main navbar*/
-ul#navbar{}
-ul#navbar li{}
+#navbar-bg {
+	background: #FDFDFA; /*f1f0dc*/
+	margin-top: -35px;
+}
+ul#navbar{
+	height: 35px;
+	text-transform: uppercase;
+	width: 944px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 22;
+	padding-left: 220px;
+}
+ul#navbar li {
+	float: left;
+	margin-left: 40px;
+	font-size: 12px;
+	margin-top: 10px;
+	height: 31px;
+}
 	
 div#clear {clear:left;}
-ul#navbar li a{text-decoration:none;}
+ul#navbar li a{
+	text-decoration:none;
+	color: #976d31;
+	letter-spacing: 2px;
+	position: relative;
+	white-space: nowrap;
+}
+ul#navbar li:hover .sub-nav{ /*show the sub nav when hovering the main nav*/
+    display: block;
+}
+/* fine and manish arora links have no bold on hover*/
+#nav-collections > div > a:nth-child(8):hover, #nav-collections > div > a:nth-child(1):hover {font-weight:normal;}
+/*home page, philosophy, parallax scroll*/
 
+.story { height: 1100px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto; /*border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);*/}
+
+#first { background: url(../images/muse-2-bg.jpg) transparent 50% 0 no-repeat fixed; }
+#second { background: url(../images/muse-2-bg.jpg) #564520 50% 0 no-repeat fixed; }
+#third { background: url(../images/bangle.jpg) #0e0a06 50% 0 no-repeat fixed; }
+#fourth { background: url(../images/model.jpg) #121111 50% 0 no-repeat fixed; }
+#fifth { background: url(../images/hanging.jpg) #000000 50% bottom no-repeat fixed; }
+
+/* text blocks overlaid to be parallax scrlled */
+section> article > div > h2 {
+  color: #fdfdfa;
+  font-size: 90px;
+  letter-spacing: 10px;
+  text-align: center;
+  padding: 20px 0;
+}
+article > div > h3 {
+  color: #fdfdfa;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+article > div > p {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fdfdfa;
+  width: 780px;
+  margin: 40px auto;
+  line-height: 2.5em;
+}
+article > div > hr {
+  border-color: #fdfdfa;
+  width: 780px;
+  top: -15px;
+  display: none;
+}
+/* Introduction */
+#first .symbols { background: url(../images/symbols-710-border.jpg) 50% 600px no-repeat fixed; min-height: 1099px; padding: 0; top:1px; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; z-index: 20;}
+.first article { width: 100%; top: 200px; position: absolute; text-align: center; }
+#first article {
+top: 0px;
+
+}
+.eternal {
+	background: url(../images/eternal_mystery_background_new.png) transparent 50% 0 no-repeat;
+	height: 1400px;
+}
+
+/* Background Only */
+#second { padding: 50px 0;}
+/*#second article { background: url(images/grain.png) repeat #333; color: #fff; width: 445px; margin-left: 100px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }*/
+#second article p { margin-bottom: 25px; }
+#second article a { color: #ff0;}
+
+/* Photograph */
+/*#third article {  background: url(images/grain.png) repeat #333; color: #fff; padding: 10px 20px; margin: 100px 0 0 60%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }*/
+/*#third .photograph { background: url(images/heritage_txt.png) transparent 40% 100px no-repeat fixed; min-height: 600px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }*/
+#third article p { width: 300px; margin-bottom: 25px; }
+
+/* HTML5 Video */
+#fourth article {  margin-left: -200px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 180px; }
+#fourth article p { width: 300px; margin: 50px 0; }
+#fourth .lens-flare { background: url(../images/lens-flare.png) 50% 1px no-repeat fixed; min-height: 1100px; padding: 0; top:1px; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; z-index: 20;}
+/*#fourth video { position: fixed; left: 50%; box-shadow: 0 0 25px rgba(0,0,0,0.7); z-index: 1;}*/
+
+/* The End */
+#fifth .byebye { background: url(../images/another.jpg) 50% 0 no-repeat fixed; height: 1100px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+
+/*contact page*/
+.logo {
+	width: 1184px;
+	border: 2px solid #a58252;
+	height: 300px;
+	background: url('../images/contact-logo.png') no-repeat 800px 40px;
+	margin: 30px auto;
+}
+hr {
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-top: 1px solid #a58252;
+	width: 1184px;
+	position: relative;
+	top: 40px;
+	z-index: 1;
+}
+.contact_form {
+width: 380px;
+margin: 60px auto;
+}
+#manufacturing .contact_form {
+	width: 600px;
+}
+.contact_form p {
+border: 1px solid #a58252;
+padding: 10px 0;
+margin: 10px 0;
+}
+.contact_form .contact_info {
+text-align: center;
+color: #a58252;
+letter-spacing: 2px;
+font-size: 12px;
+line-height: 1.4em;
+border: none;
+margin: 30px 0;
+}
+.contact_form .contact_info a {
+	color: #976d31;
+}
+.contact_form h3 {
+color: #a58252;
+width: 150px;
+margin: 10px auto;
+background: #FFF;
+position: relative;
+z-index: 2;
+text-align: center;
+font-size: 12px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+#manufacturing .contact_form h3 {
+	width: 290px;
+	text-transform: uppercase;
+	word-spacing: 3px;
+}
+.contact_form p:last-child {
+border: none;
+}
+.contact_form form {
+margin-top: 60px;
+}
+form input, form label, form textarea, form span {
+font-family: 'Quattocento Sans', sans-serif;
+color: #a58252;
+text-transform: uppercase;
+font-size: 12px;
+letter-spacing: 2px;
+}
+#email, #name, #surname {
+border: none;
+width: 60%;
+outline: none;
+text-transform: none;
+}
+form span {
+margin: 20px 0;
+display: block;
+}
+form label {
+margin-left: 30px;
+}
+#comments {
+width: 360px;
+max-width: 360px;
+min-height: 240px;
+margin:-22px 5px -8px 3px;
+text-transform: none;
+font-size: 13px;
+outline: none;
+border: none;
+padding: 0 5px;
+resize: none;
+}
+#submit {
+border: none;
+float: right;
+background: #FFF;
+font-size: 12px;
+cursor: pointer;
+}
+input[type="submit"]:hover {
+	font-weight: bold;
+}
+p.error, p.success {
+	font-weight: bold;
+	padding: 10px;
+	border: 1px solid;
+	width: 360px;
+	margin: 0 auto;
+	font-size: 12px;
+    letter-spacing: 2px;
+}
+p.error {
+	background: #ffc0c0;
+	color: #900;
+}
+p.success {
+	background: #b3ff69;
+	color: #4fa000;
+}
+
+/*drop-down sub nav*/
+.sub-nav {
+	width: 165px;
+	background: #FDFDFA;
+	position: absolute;
+	z-index: 21;
+	top: 35px;
+	text-align: center;
+	display: none;
+}
+.sub-nav a {
+	text-decoration: none;
+	color: #a58252 !important;
+	font-size: 14px;
+	letter-spacing: 2px;
+	border-top: 1px solid #a58252;
+	margin: 5px;
+	width: 140px;
+	display: block;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	margin: 0 auto;
+	font-size: 11px;
+}
+.sub-nav a.sub-sub {
+    border-top: none;
+    text-align: left;
+    height: 20px;
+    line-height: 20px;
+    margin-top: -6px;
+    text-transform: capitalize;
+}
+.sub-sub:nth-of-type(6), .sub-sub:nth-of-type(11) {
+padding-bottom: 7px;
+}
+.sub-nav a:first-of-type {
+	border: none;
+	padding-top: 6px;
+	/*background: url('../images/collections-triangle') no-repeat 50% top;*/
+}
+.sub-nav a:hover {
+    font-weight: bold;
+}
+#nav-collections .sub-nav {
+	margin-left: -34px;
+}
+#nav-spotlight .sub-nav {
+	margin-left: -44px;
+}
+#nav-stores .sub-nav {
+	margin-left:-53px;
+}
+#nav-contact .sub-nav {
+	margin-left: -47px;
+}
+/*stores page and collections*/
+#stores-logo, #collections-logo, #collections-slide-fine, #spotlight-logo {
+	border: 2px solid #a58252;
+	margin: 30px auto;
+	display: block;
+}
+#stores-india {
+	display: block;
+	margin: 0 auto;
+}
+#collections .sub-nav {
+/*	width: 990px;*/
+}
+#collections-symbol {
+	margin: -310px 30% 70%;
+	position: fixed;
+}
+#collections #fine-jewels {
+	margin-top: -10px;
+	position: relative;
+}
+/* collection blurb */
+#contents > div.collection-blurb {
+width: 750px;
+margin: 0 auto;
+padding-bottom: 30px;
+}
+#contents > div.collection-blurb h3,  #contents > div.collection-blurb h2, #contents > div.collection-blurb p {
+text-align: center;
+color: #a58252;
+font-size:12px;
+letter-spacing: 2px;
+}
+#contents > div.collection-blurb > h2 {
+font-size: 48px;
+letter-spacing: 6px;
+padding: 25px 0 50px 0;
+margin-bottom: 10px;
+}
+#contents > div.collection-blurb hr {width: 335px;margin:0 auto;}
+#contents > div.collection-blurb > hr:nth-of-type(1) {
+top: -8px;
+}
+#contents > div.collection-blurb > hr:nth-child(4) {
+top: -30px;
+}
+#contents > div.collection-blurb > h3 {
+background: #fff;
+width: 140px;
+margin: 0 auto;
+/* padding: 0 10px; */
+z-index: 2;
+position: relative;
+}
+#contents > div.collection-blurb > p {
+line-height: 1.5em;
+}
+#contents > div.collection-blurb > p a {
+color: #976d31;
+}
+/* collection image layout */
+.large_on_right, .large_on_left, .collection_tiles {
+position: relative;
+width: 1194px;
+margin: 0 auto;
+clear: both;
+}
+.large_on_right, .large_on_left {
+	height: 600px;
+}
+.collection_tiles {
+width: 1230px;
+padding-left: 36px;
+}
+.large_on_right li, .large_on_left li {
+position: absolute;
+}
+.large_on_right li:nth-of-type(5) {
+right: 0px;
+width: 581px;
+height: 581px;
+}
+.large_on_right li, .large_on_left li, .collection_tiles li {
+width: 277px;
+height: 277px;
+}
+.collection_tiles li {
+	float: left;
+	margin: 0 28px 28px 0;
+}
+.large_on_right li:nth-of-type(2) {
+left: 307px;
+}
+.large_on_right li:nth-of-type(3) {
+top: 307px;
+}
+.large_on_right li:nth-of-type(4) {
+left: 307px;
+top: 307px;
+}
+#fine_Holi .large_on_right li:nth-of-type(4) {
+visibility: hidden; /* only 3 in set */
+}
+.large_on_left li:nth-of-type(1) {
+	width: 581px;
+	height: 581px;
+	left: 0;
+}
+.large_on_left li:nth-of-type(2) {
+right: 307px;
+}
+.large_on_left li:nth-of-type(3) {
+top: 307px;
+right: 0;
+}
+.large_on_left li:nth-of-type(4) {
+right: 307px;
+top: 307px;
+}
+.large_on_left li:nth-of-type(5) {
+	top:0;
+	right:0;
+}
+.hover_text {
+position: relative;
+background: #FFF;
+opacity: 0.5;
+height: 20%;
+}
+.collection_tiles .hover_text, .hover_text {
+	top: -20%;
+}
+.hover_text span {
+text-align: center;
+display: block;
+position: relative;
+text-transform: capitalize;
+top: 30%;
+}
+/* the store location pages */
+#store_locations h3 {
+	outline: none; 
+	color: #976d31; 
+	cursor: pointer;
+	width: 150px;
+	margin: 10px auto;
+	background: #FFF;
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+#store_locations h3:hover, #store_locations p a:hover {
+font-weight: bold;
+}
+#store_locations {width: 1184px; margin: 0 auto; }
+
+#store_locations hr, .contact_form hr {
+	border-top: 1px solid #a58252;
+	width: 380px;
+	position: relative;
+	top: -20px;
+	z-index: 0;
+}
+#contents #store_locations hr {
+	border-top: 1px solid #a58252;
+}
+#store_locations p a {color: #a58252; text-decoration: none;}
+#store_locations p {
+color: #a58252;
+float: left;
+margin: 2% 1%;
+text-align: center;
+font-size: 11px;
+letter-spacing: 2px;
+line-height: 1.4em;
+}
+#store_locations div {
+height: 180px;
+background: #FDFDFA;/*fcfcf3*/
+}
+#store_locations div.mumbai { /*this one has eight addresses*/
+	height: 430px;
+}
+#store_locations .mumbai p {
+	width: 22% !important;
+	min-height: 140px;
+}
+/* exhibition pages */
+#contents > div.exhibitions {
+width: 860px;
+margin: 0 auto;
+color: #a85;
+font-size: 13px;
+}
+.exhibitions h3, .exhibitions h2, .exhibitions p {
+  text-align: center;
+}
+div.exhibitions > div > hr {
+  top: -15px;
+  width: 400px;
+}
+div.exhibitions > h3 {
+  width: 150px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+  background: #fff;
+  clear: both;
+}
+div.exhibitions > div > p {
+  float: left;
+  padding: 20px 0 30px 0;
+}
+div.exhibitions > div:nth-child(2) > p {
+  width: 50%;
+}
+div.exhibitions > div:nth-child(4) > p {
+  width: 100%;
+}
+div.exhibitions > div:nth-child(6) > p {
+  width: 33%;
+}
+div.exhibitions > div:nth-child(6) {
+  padding-bottom: 70px;
+  clear: left;
+}
+/*spotlight pages*/
+
+#spotlight .sub-nav, #awards .sub-nav, #exhibitions .sub-nav {
+/*	width: 1250px;*/
+}
+#spotlight .sub-nav a, #awards .sub-nav a, #exhibitions .sub-nav a {
+/*	margin: 10.5px;*/
+}
+#publications, #fine-jewels, #exhibitions, #contact-general, #contact-careers, #stores-international {
+	display: block;
+	margin: 0 auto;
+}
+.thumbs {
+	margin: -40px auto;
+	width: 1150px;
+	height: 240px;
+	white-space: nowrap;
+}
+.thumbs img {
+	border: 2px solid #a58252;
+	margin-right: 20px;
+	white-space: nowrap;
+}
+.large-pic {
+	height: 570px;
+	width: 1150px;
+	margin: 0 auto;
+}
+.large-pic img {
+	border: 2px solid #a58252;
+}
 	
 /*footer image link - arup designs*/
 #footer{}
@@ -89,7 +656,7 @@ ul#navbar li a{text-decoration:none;}
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio:0){
 /*	global rules*/
-	div#wrap{overflow:hidden;}/*safari rule*/
+	div#wrap{}
 
 /*	navbar*/
 	
