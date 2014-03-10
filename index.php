@@ -12,7 +12,7 @@ navbar();
 	<article>
 		<div class="eternal"></div>
 		<!-- <img src="images/eternal_mystery_background.png" alt="tutorial-title" width="1920" height="1400" /> -->
-		
+<p>A globally renowned, respected and coveted luxury jewellery brand</p>		
     </article>
 	
 </section>
@@ -23,10 +23,12 @@ navbar();
 	<!--	<img src="images/muse_txt.png" alt="tutorial-title" width="782" height="364" /> -->
   <div class="muse-text">
 <h3>THE WORLD OF AMRAPALI</h3>
-<hr />
+<hr class="topLeft top" />
+<hr class="topRight top"/>
 <h2>OUR MUSE</h2>
 <h3>THE SOUL OF THIS WORLD, IT'S DRIVING INSPIRATION</h3>
-<hr />
+<hr class="bottomLeft bottom" />
+<hr class="bottomRight bottom" />
 <p>Amrapali was a renowned royal courtesan said to have lived around 500BC in ancient India, she is also the timeless symbol of a Muse, one who brings you inspiration, intuition and higher vision through her timeless beauty and grace. Amrapali's extraordinary beauty and charm was also known far and wide. She is mentioned in the old Pali and Buddhist traditions, particularly in conjunction with the Buddha staying at her mango grove. The timelessness of the legend, and its immediate association to feminine beauty, delight and India's heritage make it the ideal association for the brand.</p>
   </div>  
 	</article>
@@ -40,10 +42,12 @@ navbar();
 	    
   <div class="heritage-text">
 <h3>TREASURES FROM THE</h3>
-<hr />
+<hr class="topLeft top" />
+<hr class="topRight top"/>
 <h2>ROOTS</h2>
 <h3>Ancient Art revival</h3>
-<hr />
+<hr class="bottomLeft bottom" />
+<hr class="bottomRight bottom" />
 <p>Led by the passion of its founders, Rajiv Arora & Rajesh Ajmera, two heritage enthusiasts and history students, Amrapali is the finest reflection of India's unmatched jewellery traditions and workmanship.</p>
   </div>  
 	</article>
@@ -56,6 +60,16 @@ navbar();
 	<article>
 		<img src="images/passion_txt.png" alt="tutorial-title" width="467" height="369" />
     
+  <div class="passion-text">
+<h3>OUR DEEP ROOTED</h3>
+<hr class="topLeft top" />
+<hr class="topRight top"/>
+<h2>PASSION</h2>
+<h3>FOR DESIGN AND CRAFTSMANSHIP</h3>
+<hr class="bottomLeft bottom" />
+<hr class="bottomRight bottom" />
+<p>Its founders Rajesh Ajmera & Rajiv Arora, two heritage enthusiasts and history students, Amrapali is the finest reflection of India's unmatched jewellery traditions and workmanship.</p>
+  </div>  
 	</article>
 
 </section>	
@@ -65,7 +79,6 @@ navbar();
 	<article>
   <div class="heritage-text">
 <h3>Extraordinary</h3>
-<hr />
 <h2>CRAFTSMANSHIP</h2>
 <h3>Support to craftsmen and the legacy of generations</h3>
 <hr />
