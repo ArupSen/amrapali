@@ -5,6 +5,7 @@ require_once INCPATH.'header.php';
 // recaptcha stuff
 require_once INCPATH.'recaptchalib.php';
 $publickey = "6Ld-Ve8SAAAAAL7NLJn6R46awyZB_mNZ3SydMXV8";
+$privatekey = "6Ld-Ve8SAAAAAFSpkJwpozC-7_XWtWSGL90eG1d5";
 navbar();
 
 // the unique contents will go here up to the footer
@@ -24,6 +25,12 @@ navbar();
 <h3>WRITE TO US</h3>
 <hr />
 <?php
+// reCaptcha stuff
+$resp = recaptcha_check_answer ($privatekey,
+  $_SERVER["REMOTE_ADDR"],
+  $_POST["recaptcha_challenge_field"],
+  $_POST["recaptcha_response_field"]);
+
 // OPTIONS - PLEASE CONFIGURE THESE BEFORE USE!
 
 $yourEmail = "arupsen48@gmail.com"; // the email address you wish to receive these mails through
@@ -100,7 +107,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 		$error_msg[] = "That is not a valid e-mail address.\r\n";
 	if (!empty($_POST['url']) && !preg_match('/^(http|https):\/\/(([A-Z0-9][A-Z0-9_-]*)(\.[A-Z0-9][A-Z0-9_-]*)+)(:(\d+))?\/?/i', $_POST['url']))
 		$error_msg[] = "Invalid website url.\r\n";
-	
+  if (!$resp->is_valid) { 
+    $error_msg[] = 'The captcha coed was not entered correctly. Please try again.';
+  }
 	if ($error_msg == NULL && $points <= $maxPoints) {
 		$subject = "Email from website";
 		
@@ -108,12 +117,16 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 		
 		
 		foreach ($_POST as $key => $val) {
-			if (is_array($val)) {
-				foreach ($val as $subval) {
-					$message .= ucwords($key) . ": " . clean($subval) . "\r\n";
-				}
+        if (is_array($val)) {
+          foreach ($val as $subval) {
+            if ($key == 'recaptcha_challenge_field' || $key == 'recaptcha_response_field') {
+              $message .= '';
+            } else {
+        //      $message .= ucwords($key) . ": " . clean($subval) . "\r\n";
+          }
+        }
 			} else {
-				if ($key != 'submit') {
+				if ($key != 'submit' && $key != 'recaptcha_challenge_field' && $key != 'recaptcha_response_field') {
 					$message .= ucwords($key) . ": " . clean($val) . "\r\n";
 				}	
 			}
@@ -136,7 +149,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 				$result = 'Your mail was successfully sent.';
 				$disable = true;
 			}
-		} else {
+  } else {
 			$error_msg[] = 'Your mail could not be sent this time. ['.$points.']';
 		}
 	} else {
@@ -155,7 +168,11 @@ if (!empty($error_msg)) {
 if ($result != NULL) {
 	echo '<p class="success">'. $result . "</p>";
 }
-?>
+?><script type="text/javascript">
+ var RecaptchaOptions = {
+    theme : 'clean'
+ };
+ </script>
 <form action="<?php echo basename(__FILE__); ?>" method="post">
 <noscript>
 		<p><input type="hidden" name="nojs" id="nojs" /></p>
@@ -174,8 +191,8 @@ if ($result != NULL) {
 	<p><label for="message"></label>
 		<textarea name="message" id="comments" rows="5" cols="20"><?php get_data("message"); ?></textarea><br /></p>
 
-<p>
 	<?php echo recaptcha_get_html($publickey); ?>
+<p>
 	<input type="submit" name="submit" id="submit" value="Send >" <?php if (isset($disable) && $disable === true) echo ' disabled="disabled"'; ?> />
 </p>
 </form>
