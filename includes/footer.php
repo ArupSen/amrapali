@@ -26,6 +26,11 @@
     // insert an anchor to link back to the home page
     $('#heading').append('<a class="home-link" href="./index.php" title="return to home page"></a>');
     $('.home-link').css({'width': '250px', 'height':'140px','margin':'0 auto','display':'block'});
+    // swap icons in the captcha
+    $("#recaptcha_reload").attr('src', './images/refresh.png');
+    $("#recaptcha_switch_audio").attr('src', './images/audio.png');
+    $("#recaptcha_switch_img").attr('src', './images/text.png');
+    $("#recaptcha_whatsthis").attr('src', './images/help.png');
 	});
 	
 </script>
