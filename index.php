@@ -40,15 +40,15 @@ navbar();
 	<article>
 		<!-- <img src="images/heritage_txt.png" alt="tutorial-title" width="887" height="316" /> -->
 	    
-  <div class="heritage-text">
-<h3>TREASURES FROM THE</h3>
+  <div class="passion-text">
+<h3>SIGNATURE STATEMENT JEWELLERY</h3>
 <hr class="topLeft top" />
 <hr class="topRight top"/>
-<h2>ROOTS</h2>
-<h3>Ancient Art revival</h3>
+<h2>HERITAGE CHIC</h2>
+<h3>ECLECTIC INDIAN AESTHETIC</h3>
 <hr class="bottomLeft bottom" />
 <hr class="bottomRight bottom" />
-<p>Led by the passion of its founders, Rajiv Arora & Rajesh Ajmera, two heritage enthusiasts and history students, Amrapali is the finest reflection of India's unmatched jewellery traditions and workmanship.</p>
+<p>Luxurious Jewels from the house of Amrapali shaped in elegant constituents personify the heritage of India with a modern eclectic twist.</p>
   </div>  
 	</article>
 </section>	
@@ -59,16 +59,15 @@ navbar();
 	<div class="lens-flare" data-type="sprite" data-offsetY="1" data-speed="4"></div>
 	<article>
 		<img src="images/passion_txt.png" alt="tutorial-title" width="467" height="369" />
-    
-  <div class="passion-text">
-<h3>OUR DEEP ROOTED</h3>
+  <div class="heritage-text">
+<h3>TREASURES FROM THE</h3>
 <hr class="topLeft top" />
 <hr class="topRight top"/>
-<h2>PASSION</h2>
-<h3>FOR DESIGN AND CRAFTSMANSHIP</h3>
+<h2>ROOTS</h2>
+<h3>Ancient Art revival</h3>
 <hr class="bottomLeft bottom" />
 <hr class="bottomRight bottom" />
-<p>Its founders Rajesh Ajmera & Rajiv Arora, two heritage enthusiasts and history students, Amrapali is the finest reflection of India's unmatched jewellery traditions and workmanship.</p>
+<p>Led by the passion of its founders, Rajiv Arora & Rajesh Ajmera, two heritage enthusiasts and history students, Amrapali is the finest reflection of India's unmatched jewellery traditions and workmanship.</p>
   </div>  
 	</article>
 
