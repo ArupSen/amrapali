@@ -9,7 +9,7 @@ navbar();
 ?>
 <?php img_tag('exhibitions.jpg','','spotlight-logo'); ?>
 <?php require_once INCPATH.'spotlight-nav.php'; ?>
-<?php img_tag('exhibitions.png','','exhibitions'); ?>
+<?php //img_tag('exhibitions.png','','exhibitions'); ?>
 <div class="exhibitions">
 <h3>HONG KONG</h3>
   <div>
@@ -46,11 +46,6 @@ navbar();
 <h3>UK</h3>
   <div>
     <hr />
-    <p>
-    Inhorgenta, Munich 2014<br />
-    Show date: 14th - 17th February, 2014<br /> 
-    British Pavillion Hall C2<br />
-    </p>
     <p>
     Jewellery & Watch London, at the<br />
     Show date: 18th- 19th June, 2014<br /> 
