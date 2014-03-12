@@ -7,7 +7,7 @@ $url_prefix = "http://yogarup.com/amrapali/";
 ?>
 <div id="navbar-bg">
 <ul id="navbar">
-	<li id="nav-philosophy"><a href="<?php echo $url_prefix; ?>index.php" title="philosophy"><span class="tab">home</span></a></li>	
+	<li id="nav-philosophy"><a href="<?php echo $url_prefix; ?>index.php" title="home"><span class="tab">home</span></a></li>	
 	<li id="nav-collections"><a href="<?php echo $url_prefix; ?>collections.php" title="collections"  onclick="return false;"><span class="tab">collections</span></a>
 		<div class="sub-nav">			
 			<a href="" onclick="return false;">FINE</a>
@@ -24,7 +24,7 @@ $url_prefix = "http://yogarup.com/amrapali/";
 			<a href="<?php echo $url_prefix; ?>limited_edition.php">LIMITED EDITION</a>
 		</div>
 		</li>
-	<li id="nav-spotlight"><a href="<?php echo $url_prefix; ?>spotlight.php" title="spotlight"><span class="tab">limelight</span></a>
+	<li id="nav-spotlight"><a href="<?php echo $url_prefix; ?>spotlight.php" title="limelight"><span class="tab">limelight</span></a>
 		<div class="sub-nav">
 			<a href="<?php echo $url_prefix; ?>bollywood.php">BOLLYWOOD</a>
 			<a href="<?php echo $url_prefix; ?>hollywood.php">HOLLYWOOD</a>			
@@ -32,6 +32,7 @@ $url_prefix = "http://yogarup.com/amrapali/";
 			<a href="<?php echo $url_prefix; ?>news.php">NEWS</a>
 			<a href="<?php echo $url_prefix; ?>awards.php">AWARDS</a>
 			<a href="<?php echo $url_prefix; ?>exhibitions.php">EXHIBITIONS</a>
+			<a href="<?php echo $url_prefix; ?>story.php">OUR STORY</a>
 		</div>
 		</li>
 	<li id="nav-eshop"><a href="eshop.php" title="eshop" onclick="return false;"><span class="tab">e-shop</span></a></li>
