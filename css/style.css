@@ -206,7 +206,7 @@ padding: 10px 0 30px 0;
 /* Photograph */
 /*#third article {  background: url(images/grain.png) repeat #333; color: #fff; padding: 10px 20px; margin: 100px 0 0 60%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }*/
 /*#third .photograph { background: url(images/heritage_txt.png) transparent 40% 100px no-repeat fixed; min-height: 600px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }*/
-#third article p { width: 300px; margin-bottom: 25px; }
+#third article p { width: 460px; margin-bottom: 25px; }
 
 /* HTML5 Video */
 #fourth article {  margin-left: -200px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 180px; }
@@ -251,37 +251,38 @@ right: -240px;
   padding: 10px 0 30px 0;
 }
 .heritage-text hr.topRight, .heritage-text hr.bottomRight {
-  top: -25px;
+  top: -30px;
   width: 80px;
   right: -129px;
 }
 .heritage-text hr.topLeft, .heritage-text hr.bottomLeft {
   left: -135px;
+  top: -20px;
 }
 .heritage-text hr {
   width: 90px;
 }
 .passion-text hr.topRight {
-  top: -30px;
-  right: -115px;
+  top: -25px;
+  right: -275px;
 }
 .passion-text hr.topLeft {
-  top: -20px;
-  left: -120px;
+  top: -15px;
+  left: -280px;
 }
 .passion-text hr.top {
-  width: 80px;
+  width: 270px;
 }
 .passion-text hr.bottom {
-  width: 20px;
+  width: 295px;
 }
 .passion-text hr.bottomLeft {
-  top: -20px;
-  left: -150px;
+  top: -15px;
+  left: -265px;
 }
 .passion-text hr.bottomRight {
-  top: -30px;
-  right: -145px;
+  top: -25px;
+  right: -265px;
 }
 
 /*contact page*/
@@ -337,6 +338,9 @@ text-align: center;
 font-size: 12px;
 letter-spacing: 2px;
 text-transform: uppercase;
+}
+#careers .contact_info, #manufacturing .contact_info {
+  letter-spacing: 1px;
 }
 #manufacturing .contact_form h3 {
 	width: 290px;
@@ -408,7 +412,31 @@ p.success {
 	background: #b3ff69;
 	color: #4fa000;
 }
-
+.recaptchatable a, .recaptchatable a:hover {
+  font-size: 10px;
+}
+.recaptchatable #recaptcha_response_field {
+  font-size: 12px;
+  border: 1px solid #a85 !important;
+}
+#recaptcha_logo {
+  display: none;
+}
+#recaptcha_privacy a {
+  margin-left: 10px;
+  color: #a85;
+}
+#recaptcha_image {
+  border: 1px solid #a85!important;
+}
+.recaptchatable {
+  line-height: 1em;
+  left: -7px;
+  position: relative;
+}
+table#recaptcha_table {
+  border: none !important;
+}
 /*drop-down sub nav*/
 .sub-nav {
 	width: 165px;
@@ -485,6 +513,13 @@ padding-bottom: 7px;
 #collections #fine-jewels {
 	margin-top: -10px;
 	position: relative;
+}
+/* story page with the video */
+#story {
+  text-align: center;
+}
+#nav-spotlight > div > a:nth-child(7) {
+  text-indent: -4px;
 }
 /* collection blurb */
 #contents > div.collection-blurb {
@@ -639,7 +674,7 @@ color: #a58252;
 float: left;
 margin: 2% 1%;
 text-align: center;
-font-size: 11px;
+font-size: 12px;
 letter-spacing: 1px;
 line-height: 1.4em;
 }
@@ -652,7 +687,7 @@ background: #FDFDFA;/*fcfcf3*/
 }
 #store_locations .mumbai p {
 	width: 22% !important;
-	min-height: 140px;
+	min-height: 145px;
 }
 /* exhibition pages */
 #contents > div.exhibitions {
@@ -689,7 +724,7 @@ div.exhibitions > div:nth-child(4) > p {
   width: 100%;
 }
 div.exhibitions > div:nth-child(6) > p {
-  width: 33%;
+  width: 50%;
 }
 div.exhibitions > div:nth-child(6) {
   padding-bottom: 70px;
