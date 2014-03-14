@@ -1,0 +1,147 @@
+.pressPage {
+  width: 1110px;
+  min-height: 730px;
+  margin: 0 auto;
+  color: #FFF;
+}
+.pressPage.pressPrint .pressTop .top {
+  height: 219px;
+}
+.pressPage.pressPrint .row li.pressItem {
+  width: 158px;
+}
+.pressPage.pressOnline .pressTop .top {
+  height: 219px;
+}
+.pressPage.pressOnline .row li.pressItem {
+  width: 172px;
+}
+.pressPage .pressTop {
+  margin: 0 0 20px 0;
+}
+.pressPage .pressTop .top {
+  width: 956px;
+  height: 180px;
+  margin: 0;
+  padding: 0;
+  border: 2px solid #000;
+}
+.pressPage .pressTop .pressNav {
+  margin: 30px 0;
+  position: relative;
+}
+.pressPage .pressTop .pressNav .buttons {
+  width: 340px;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 47px;
+  position: relative;
+  z-index: 2;
+  padding: 0 30px;
+}
+
+.pressPage #zoomin {
+  display: none;
+  width: 98%;
+  margin: 0 1% 20px 1%;
+  clear: both;
+}
+.pressPage #zoomin img {
+  width: 521px;
+  height: 731px;
+  float: left;
+  border: 2px solid rgb(151, 109, 49);
+  margin-left: 2px;
+  margin-right: 26px;
+}
+.pressPage #zoomin .innertext {
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 40px;
+  max-width: 438px;
+  
+}
+.pressPage #zoomin .innertext .title {
+  display: block;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: rgb(151, 109, 49);
+  margin: 0 0 4px 0;
+/*  padding-top: 110px;*/
+}
+.pressPage #zoomin .innertext .subscript {
+  display: block;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 16px;
+  color: rgb(151, 109, 49);
+  margin: 0 0 10px 0;
+}
+.pressPage #zoomin .innertext .description {
+  display: block;
+  font-size: 12px;
+  color: rgb(151, 109, 49);
+}
+.pressPage .row {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pressPage .row li.pressItem {
+  float: left;
+  margin: 0 13px 20px;
+  cursor: pointer;
+  display: block;
+}
+.pressPage .row li.pressItem.last {
+  margin-right: 0;
+  float: right;
+}
+.pressPage .row li.pressItem .thumbnail {
+  border: 1px solid rgb(151, 109, 49);
+  display: block;
+  height: 218px;
+}
+.pressPage .row li.pressItem .thumbnail img {
+  width: 100%;
+}
+.pressPage .row li.pressItem .image {
+  display: none;
+}
+.pressPage .row li.pressItem .subscript {
+  display: none;
+}
+.pressPage .row li.pressItem .title {
+  display: none;
+}
+.pressPage .row li.pressItem .description {
+  display: none;
+}
+.pressPage .closebox {
+  float: right;
+  top: 20px;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(151, 109, 49);
+  color: rgb(151, 109, 49);
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  margin-bottom: -42px;
+  margin-right: 8px;
+}
+.pressTooltip {
+  display: none;
+  position: absolute;
+  border: 1px solid rgb(151, 109, 49);
+  background-color: #fff;
+  padding: 10px;
+  color: rgb(151, 109, 49);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  z-index: 10;
+}
