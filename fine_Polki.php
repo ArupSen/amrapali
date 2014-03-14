@@ -21,7 +21,7 @@ $manish_tiles = array(
 	array('Art-Deco-Style-Hoop-Earrings-(c)','Art Deco Style Hoop Earrings (c)<br />Diamond & South Sea Pearl set in silver & gold'),
 	array('Art-Deco-Style-Hoop-Earrings-(d)','Art Deco Style Hoop Earrings (d)<br />Diamond & South Sea Pearl set in silver & gold'),
 	array('Long-Peacock-Maharaja-Necklace','Long Peacock Maharaja Necklace<br />Diamond, pearl & emerald set in silver & gold'),
-	array('Pair-of-Antique-Finish-Rose-Cut-Diamond-Floral-Rings','Pair of Antique Finish Rose Cut Diamond<br />Diamond set in silver & gold')
+	array('Pair-of-Antique-Finish-Rose-Cut-Diamond-Floral-Rings','Rose cut diamond floral rings<br />Diamond set in silver & gold')
 );
 $manish_large_tiles = array(array('Stack-of-Bangles-big','Stack of Bangles<br />Diamond set in silver & gold'));
 $tile_image_path = TILE_PATH_PREFIX.'/fine_polki/';
