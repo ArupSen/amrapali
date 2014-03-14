@@ -35,7 +35,7 @@ $url_prefix = "http://yogarup.com/amrapali/";
 			<a href="<?php echo $url_prefix; ?>story.php">OUR STORY</a>
 		</div>
 		</li>
-	<li id="nav-eshop"><a href="eshop.php" title="eshop" onclick="return false;"><span class="tab">e-shop</span></a></li>
+	<li id="nav-eshop"><a href="http://www.tribebyamrapali.com/" target="_blank" title="eshop"><span class="tab">e-shop</span></a></li>
 	<li id="nav-stores"><a href="<?php echo $url_prefix; ?>stores.php" title="stores"><span class="tab">stores</span></a>
 		<div class="sub-nav">
 			<a href="<?php echo $url_prefix; ?>stores.php">INDIA</a>
