@@ -11,7 +11,7 @@ navbar();
 // the unique contents will go here up to the footer
 ?>
 <!-- <div class="logo"></div> -->
-<?php img_tag('contact_us.jpg','','collections-logo'); ?>
+<?php img_tag('Contact-Us.jpg','','collections-logo'); ?>
 <div class="contact_form">
 <h3>CONTACT US</h3>
 <hr />
