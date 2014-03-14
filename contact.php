@@ -33,7 +33,7 @@ $resp = recaptcha_check_answer ($privatekey,
 
 // OPTIONS - PLEASE CONFIGURE THESE BEFORE USE!
 
-$yourEmail = "arupsen48@gmail.com"; // the email address you wish to receive these mails through
+$yourEmail = "info@amrapalijewels.com"; // the email address you wish to receive these mails through
 $yourWebsite = "Amrapali Jewels"; // the name of your website
 $thanksPage = ''; // URL to 'thanks for sending mail' page; leave empty to keep message on the same page 
 $maxPoints = 4; // max points a person can hit before it refuses to submit - recommend 4
