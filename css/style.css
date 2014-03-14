@@ -148,7 +148,7 @@ ul#navbar li:hover .sub-nav{ /*show the sub nav when hovering the main nav*/
   top: -1040px;
   color: #a4a287;
   text-align: center;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 2px;
 }
 #second { background: url(../images/muse-2-bg.jpg) #564520 50% 0 no-repeat fixed; }
@@ -164,7 +164,7 @@ section> article > div > h2, section> article > div > h3, section> article > div
 section> article > div > h2 {
   font-size: 90px;
   letter-spacing: 10px;
-  padding: 20px 0;
+  padding: 10px 0 40px 0;
 }
 article > div > h3 {
   font-size: 12px;
@@ -172,9 +172,9 @@ article > div > h3 {
   letter-spacing: 2px;
 }
 article > div > p {
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 1px;
-  width: 780px;
+  width: 810px;
   margin: 40px auto;
   line-height: 2.5em;
 }
@@ -206,11 +206,11 @@ padding: 10px 0 30px 0;
 /* Photograph */
 /*#third article {  background: url(images/grain.png) repeat #333; color: #fff; padding: 10px 20px; margin: 100px 0 0 60%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }*/
 /*#third .photograph { background: url(images/heritage_txt.png) transparent 40% 100px no-repeat fixed; min-height: 600px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }*/
-#third article p { width: 460px; margin-bottom: 25px; }
+#third article p { width: 490px; margin-bottom: 25px; }
 
 /* HTML5 Video */
 #fourth article {  margin-left: -200px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 180px; }
-#fourth article p { width: 430px; }
+#fourth article p { width: 420px; }
 #fourth h2 {padding: 20px 0 50px 0;}
 #fourth img {display: none;}
 #fourth .lens-flare { background: url(../images/lens-flare.png) 50% 1px no-repeat fixed; min-height: 1100px; padding: 0; top:1px; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; z-index: 20;}
@@ -350,7 +350,7 @@ text-transform: uppercase;
 .contact_form p:last-child {
 border: none;
 }
-.contact_form form {
+contact_form form {
 margin-top: 60px;
 }
 form input, form label, form textarea, form span {
