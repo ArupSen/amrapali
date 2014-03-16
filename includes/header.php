@@ -42,7 +42,7 @@ include_once DATAPATH.'meta_tags.php';
 	<meta name="description" content="<?php echo ${$filename}['description']; ?>" />
 	<meta name="keywords" content="<?php echo ${$filename}['keywords']; ?>" />
 
-	<title><?php echo ${$filename}['title']; ?></title>
+	<title>Amrapali Jewels<?php echo ${$filename}['title']; ?></title>
 	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="<?php echo CSSPATH.'style.css'; ?>" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php echo CSSPATH.'press.css'; ?>" type="text/css" media="screen" />
