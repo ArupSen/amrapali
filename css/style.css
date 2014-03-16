@@ -685,6 +685,9 @@ background: #FDFDFA;/*fcfcf3*/
 #store_locations div.mumbai { /*this one has eight addresses*/
 	height: 430px;
 }
+div#ui-accordion-store_locations-panel-3 { /* bangalore one has 5 now */
+  height: 200px;
+}
 #store_locations .mumbai p {
 	width: 22% !important;
 	min-height: 145px;
@@ -762,7 +765,10 @@ div.exhibitions > div:nth-child(6) {
 	border: 2px solid #a58252;
 }
 	
-/*footer image link - arup designs*/
+/* responsive for phone and tablet */
+@media all and (max-width: 420px) {
+  /* iphone stuff goes here */
+}
 #footer{}
 
 /*all the Safari stuff together*/
