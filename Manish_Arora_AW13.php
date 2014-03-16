@@ -9,11 +9,11 @@ navbar();
 ?>
 <?php img_tag('Manish_Arora_AW13.jpg', '', 'collections-logo'); ?>
 <?php
-/* notes on the new collection layout
-The basic layout is a tiled selection of 'cropped' close up images
-Hovering on the image swaps it to show the full image
-Hovering also shows some text - for now just the image name
-Creating a function will allow this to be used on other collection pages
+/* 
+Clicking on a thumbnail image pops up larger one in lightbox (colorbox)
+First array element is filename
+Second is item name & description separated by <br />
+
 
 */
 $manish_tiles = array(	
@@ -31,8 +31,6 @@ $manish_large_tiles = array(array('Jewelled-Collar-big','Jewelled Collar<br />Ba
 $tile_image_path = TILE_PATH_PREFIX.'/manish_aw13/';
 $tile_count = count($manish_tiles);
 $ext = '.jpg';
-
-
 ?>
 <div class="collection-blurb">
   <h3>Autumn/Winter ’13</h3>
@@ -51,7 +49,6 @@ $ext = '.jpg';
 <div class="large_on_right">
 	<ul>
 		<?php list_images(0, 4, $manish_tiles); ?>
-			
 	<li><a class="popup" <?php echo popup_info($manish_large_tiles[0]); ?>><img src="<?php echo $tile_image_path.$manish_large_tiles[0][0].$ext; ?>" <?php echo add_data($manish_large_tiles[0]); ?> /></a></li>
 	</ul>
 </div>
@@ -60,5 +57,4 @@ $ext = '.jpg';
 	<?php list_images(4, $tile_count, $manish_tiles);	?>
 	</ul>
 </div>
-
 <?php footer(); ?>

@@ -5,7 +5,6 @@ require_once INCPATH.'header.php';
 navbar();
 
 // the unique contents will go here up to the footer
-
 ?>
 <?php img_tag('Manish_Arora_SS13.jpg', '', 'collections-logo'); ?>
 <?php
@@ -13,7 +12,6 @@ navbar();
 Clicking on a thumbnail image pops up larger one in lightbox (colorbox)
 First array element is filename
 Second is item name & description separated by <br />
-
 */
 $manish_tiles = array(	
 	array('Gazelle-Earrings','Gazelle Earrings<br />Base Metal with 18k Yellow Gold plating, Enamel, Coral, Pearl & Crystal'),
@@ -30,8 +28,6 @@ $manish_large_tiles = array(array('Panther-Cuff-big','Panther Cuff<br />Base Met
 $tile_image_path = TILE_PATH_PREFIX.'/manish_ss13/';
 $tile_count = count($manish_tiles);
 $ext = '.jpg';
-
-
 ?>
 <div class="collection-blurb">
   <h3>Spring/Summer ’13</h3>
@@ -50,7 +46,6 @@ $ext = '.jpg';
 <div class="large_on_right">
 	<ul>
 		<?php list_images(0, 4, $manish_tiles); ?>
-			
 	<li><a class="popup" <?php echo popup_info($manish_large_tiles[0]); ?>><img src="<?php echo $tile_image_path.$manish_large_tiles[0][0].$ext; ?>" <?php echo add_data($manish_large_tiles[0]); ?> /></a></li>
 	</ul>
 </div>
@@ -59,5 +54,4 @@ $ext = '.jpg';
 	<?php list_images(4, $tile_count, $manish_tiles);	?>
 	</ul>
 </div>
-
 <?php footer(); ?>

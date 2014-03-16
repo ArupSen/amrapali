@@ -3,18 +3,15 @@
 require_once 'inc_path.php';
 require_once INCPATH.'header.php';
 navbar();
-
 // the unique contents will go here up to the footer
 
 ?>
 <?php img_tag('Manish_Arora_SS14.jpg', '', 'collections-logo'); ?>
 <?php
-/* notes on the new collection layout
-The basic layout is a tiled selection of 'cropped' close up images
-Hovering on the image swaps it to show the full image
-Hovering also shows some text - for now just the image name
-Creating a function will allow this to be used on other collection pages
-
+/* 
+Clicking on a thumbnail image pops up larger one in lightbox (colorbox)
+First array element is filename
+Second is item name & description separated by <br />
 */
 $manish_tiles = array(	
 	array('Borris-handcuff','Borris handcuff<br />Base Metal with 18k Yellow Gold plating Swarovski baguette and Enamel.'),
@@ -33,8 +30,6 @@ $manish_large_tiles = array(array('Rosa-ring-big','Rosa ring<br />Base Metal wit
 $tile_image_path = TILE_PATH_PREFIX.'/manish_ss14/';
 $tile_count = count($manish_tiles);
 $ext = '.jpg';
-
- 
 ?> 
 <div class="collection-blurb">
   <h3>Spring/Summer ’14</h3>
@@ -61,5 +56,4 @@ $ext = '.jpg';
 	<?php list_images(4, $tile_count, $manish_tiles);	?>
 	</ul>
 </div>
-
 <?php footer(); ?>
