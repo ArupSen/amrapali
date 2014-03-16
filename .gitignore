@@ -6,13 +6,12 @@
 .Spotlight-V100
 .Trashes
 Thumbs.db
-
 # files that will be removed #
 ##############################
 readme.txt
 template.php
 amrapali-dev.tmproj
-
+TODO.txt
 # image files #
 ###############
 *.jpg
