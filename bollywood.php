@@ -9,13 +9,8 @@ navbar();
 // the unique contents will go here up to the footer
 ?>
 <?php img_tag('Bollywood.jpg','','spotlight-logo'); ?>
-<script type='text/javascript'>
-items_per_row = 6;
-</script>
-<div class="pressPage pressPrint">
-	<span class='closebox'>X</span>
-	<ul class='row'>
 <?php
+require_once INCPATH.'spotlight_snippet.php';
 // the list items are objects
 $array_length = count($bollywood_photos);
 $thumbnail_path = 'http://yogarup.com/amrapali/images/bollywood/thumbnails/';
