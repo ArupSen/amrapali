@@ -16,7 +16,8 @@ img_tag('home-page-for-tablet.jpg','','tablet');
 	<article>
 		<div class="eternal"></div>
 		<!-- <img src="images/eternal_mystery_background.png" alt="tutorial-title" width="1920" height="1400" /> -->
-<p>A globally renowned, respected and coveted luxury jewellery brand</p>		
+<h3>WELCOME TO A WORLD OF</h3>
+<p>Amrapali is a globally renowned, respected and coveted luxury jewellery brand <br /><br />Scroll down the page to explore</p>		
     </article>
 	
 </section>
