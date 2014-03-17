@@ -142,14 +142,18 @@ ul#navbar li:hover .sub-nav{ /*show the sub nav when hovering the main nav*/
 .story { height: 1100px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto; /*border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);*/}
 
 #first { background: url(../images/muse-2-bg.jpg) transparent 50% 0 no-repeat fixed; }
-#first article p {
+#first article p, #first article h3 {
   position: relative;
   z-index: 10;
   top: -1040px;
   color: #a4a287;
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 2px;
+}
+section#first article h3 {
+  top: -1260px;
+  font-size: 15px;
 }
 #second { background: url(../images/muse-2-bg.jpg) #564520 50% 0 no-repeat fixed; }
 #third { background: url(../images/bangle.jpg) #0e0a06 50% 0 no-repeat fixed; }
@@ -164,15 +168,15 @@ section> article > div > h2, section> article > div > h3, section> article > div
 section> article > div > h2 {
   font-size: 90px;
   letter-spacing: 10px;
-  padding: 10px 0 40px 0;
+  padding: 20px 0 40px 0;
 }
 article > div > h3 {
-  font-size: 12px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 article > div > p {
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 1px;
   width: 810px;
   margin: 40px auto;
@@ -184,14 +188,14 @@ article > div > hr {
   top: -15px;
 }
 /* Introduction */
-#first .symbols { background: url(../images/symbols-710-border.jpg) 50% 600px no-repeat fixed; min-height: 1099px; padding: 0; top:1px; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; z-index: 20;}
+#first .symbols { background: url(../images/symbols-710-border.jpg) 50% 620px no-repeat fixed; min-height: 1099px; padding: 0; top:1px; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; z-index: 20;}
 .first article { width: 100%; top: 200px; position: absolute; text-align: center; }
 #first article {
 top: 0px;
 
 }
 .eternal {
-	background: url(../images/eternal_mystery_background_new_80.png) transparent 50% 0 no-repeat;
+	background: url(../images/eternal_mystery_background_newest.png) transparent 50% 0 no-repeat;
 	height: 1400px;
 }
 
@@ -206,12 +210,12 @@ padding: 10px 0 30px 0;
 /* Photograph */
 /*#third article {  background: url(images/grain.png) repeat #333; color: #fff; padding: 10px 20px; margin: 100px 0 0 60%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }*/
 /*#third .photograph { background: url(images/heritage_txt.png) transparent 40% 100px no-repeat fixed; min-height: 600px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }*/
-#third article p { width: 490px; margin-bottom: 25px; }
+#third article p { width: 530px; margin-bottom: 25px; }
 
 /* HTML5 Video */
 #fourth article {  margin-left: -200px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 180px; }
 #fourth article p { width: 420px; }
-#fourth h2 {padding: 20px 0 50px 0;}
+#fourth h2 {padding: 27px 0 50px 0;}
 #fourth img {display: none;}
 #fourth .lens-flare { background: url(../images/lens-flare.png) 50% 1px no-repeat fixed; min-height: 1100px; padding: 0; top:1px; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; z-index: 20;}
 #fourth > article > div {
@@ -228,10 +232,11 @@ position: relative;
   left: -5px;
 }
 .muse-text hr.top {
-  width: 160px;
+  width: 135px;
 }
 .muse-text hr.bottom {
   width: 50px;
+  display: none;
 }
 .muse-text hr.topLeft {
   left: -190px;
@@ -252,37 +257,37 @@ right: -240px;
 }
 .heritage-text hr.topRight, .heritage-text hr.bottomRight {
   top: -30px;
-  width: 80px;
-  right: -129px;
+  width: 70px;
+  right: -140px;
 }
 .heritage-text hr.topLeft, .heritage-text hr.bottomLeft {
-  left: -135px;
+  left: -145px;
   top: -20px;
 }
 .heritage-text hr {
-  width: 90px;
+  width: 75px;
 }
 .passion-text hr.topRight {
   top: -25px;
-  right: -275px;
+  right: -285px;
 }
 .passion-text hr.topLeft {
   top: -15px;
-  left: -280px;
+  left: -290px;
 }
 .passion-text hr.top {
-  width: 270px;
+  width: 240px;
 }
 .passion-text hr.bottom {
-  width: 295px;
+  width: 275px;
 }
 .passion-text hr.bottomLeft {
   top: -15px;
-  left: -265px;
+  left: -275px;
 }
 .passion-text hr.bottomRight {
   top: -25px;
-  right: -265px;
+  right: -275px;
 }
 
 /*contact page*/
@@ -767,28 +772,17 @@ div.exhibitions > div:nth-child(6) {
 	
 /* responsive for phone and tablet */
 #phone, #tablet {display: none;}
-@media all and (max-width: 320px) {
+@media all and (min-width: 320px) and (max-width: 640px) {
   /* iphone and other small screen stuff goes here */
   #wrap {
-    max-width: 320px;
+    max-width: 640px;
     margin: 0 auto;
   }
-  #phone {display: block; margin:0 auto;}
+  #tablet {display: block; margin:0 auto;width:100%;}
+  #collections-logo, #spotlight-logo {width:100% ; }
   #contents section {display: none;}
   ul#navbar {width: auto; padding-left: 10px;}
   ul#navbar li {font-size:10px; margin-left: 10px;}
-  .social_links {left: 10px;}
-}
-@media all and (max-width: 480px) {
-  /* iphone and other small screen stuff goes here */
-  #wrap {
-    max-width: 480px;
-    margin: 0 auto;
-  }
-  #phone {display: block; margin:0 auto;width:100%;}
-  #contents section {display: none;}
-  ul#navbar {width: auto; padding-left: 10px;}
-  ul#navbar li {font-size:9px; margin-left: 10px;}
   .social_links {left: 10px;}
 }
 #footer{}
