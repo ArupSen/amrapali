@@ -6,6 +6,10 @@ navbar();
 
 // the unique contents will go here up to the footer
 ?>
+<?php
+img_tag('home-page-for-phone.jpg','','phone');
+img_tag('home-page-for-tablet.jpg','','tablet');
+?>
 <!-- Section #1 / Intro -->
 <section id="first" class="story first" data-speed="8" data-type="background">    	
 	<div class="symbols" data-type="sprite" data-offsetY="600" data-speed="4"></div>		<!-- data-type="background" data-offsetY="650" data-Xposition="50%" data-speed="4" -->
