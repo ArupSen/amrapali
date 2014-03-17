@@ -447,7 +447,7 @@ table#recaptcha_table {
 	width: 165px;
 	background: #FDFDFA;
 	position: absolute;
-	z-index: 21;
+	z-index: 41;
 	top: 35px;
 	text-align: center;
 	display: none;
@@ -779,7 +779,7 @@ div.exhibitions > div:nth-child(6) {
     margin: 0 auto;
   }
   #tablet {display: block; margin:0 auto;width:100%;}
-  #collections-logo, #spotlight-logo {width:100% ; }
+  #collections-logo, #spotlight-logo {width:99% ; }
   #contents section {display: none;}
   ul#navbar {width: auto; padding-left: 10px;}
   ul#navbar li {font-size:10px; margin-left: 10px;}
