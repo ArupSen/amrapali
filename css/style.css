@@ -766,8 +766,30 @@ div.exhibitions > div:nth-child(6) {
 }
 	
 /* responsive for phone and tablet */
-@media all and (max-width: 420px) {
-  /* iphone stuff goes here */
+#phone, #tablet {display: none;}
+@media all and (max-width: 320px) {
+  /* iphone and other small screen stuff goes here */
+  #wrap {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  #phone {display: block; margin:0 auto;}
+  #contents section {display: none;}
+  ul#navbar {width: auto; padding-left: 10px;}
+  ul#navbar li {font-size:10px; margin-left: 10px;}
+  .social_links {left: 10px;}
+}
+@media all and (max-width: 480px) {
+  /* iphone and other small screen stuff goes here */
+  #wrap {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  #phone {display: block; margin:0 auto;width:100%;}
+  #contents section {display: none;}
+  ul#navbar {width: auto; padding-left: 10px;}
+  ul#navbar li {font-size:9px; margin-left: 10px;}
+  .social_links {left: 10px;}
 }
 #footer{}
 
