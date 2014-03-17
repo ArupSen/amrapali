@@ -1,5 +1,5 @@
 <?php
-// -- index.php called philosophy --
+// -- index.php --
 require_once 'inc_path.php';
 require_once INCPATH.'header.php';
 navbar();
@@ -7,7 +7,6 @@ navbar();
 // the unique contents will go here up to the footer
 ?>
 <?php
-img_tag('home-page-for-phone.jpg','','phone');
 img_tag('home-page-for-tablet.jpg','','tablet');
 ?>
 <!-- Section #1 / Intro -->
