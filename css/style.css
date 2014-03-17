@@ -784,6 +784,9 @@ div.exhibitions > div:nth-child(6) {
   ul#navbar {width: auto; padding-left: 10px;}
   ul#navbar li {font-size:10px; margin-left: 10px;}
   .social_links {left: 10px;}
+  /* stop bg images loading for small screens */
+  #first, #second, #third, #fourth, #fifth, #first .symbols, #first .eternal {
+    background: none;
 }
 #footer{}
 
