@@ -324,7 +324,7 @@ margin: 10px 0;
 text-align: center;
 color: #a58252;
 letter-spacing: 2px;
-font-size: 12px;
+font-size: 14px;
 line-height: 1.4em;
 border: none;
 margin: 30px 0;
@@ -340,7 +340,7 @@ background: #FFF;
 position: relative;
 z-index: 2;
 text-align: center;
-font-size: 12px;
+font-size: 14px;
 letter-spacing: 2px;
 text-transform: uppercase;
 }
@@ -348,7 +348,7 @@ text-transform: uppercase;
   letter-spacing: 1px;
 }
 #manufacturing .contact_form h3 {
-	width: 290px;
+	width: 315px;
 	text-transform: uppercase;
 	word-spacing: 3px;
 }
@@ -362,7 +362,7 @@ form input, form label, form textarea, form span {
 font-family: 'Quattocento Sans', sans-serif;
 color: #a58252;
 text-transform: uppercase;
-font-size: 12px;
+font-size: 14px;
 letter-spacing: 2px;
 }
 #email, #name, #surname {
@@ -394,7 +394,7 @@ resize: none;
 border: none;
 float: right;
 background: #FFF;
-font-size: 12px;
+font-size: 14px;
 cursor: pointer;
 }
 input[type="submit"]:hover {
@@ -406,7 +406,7 @@ p.error, p.success {
 	border: 1px solid;
 	width: 360px;
 	margin: 0 auto;
-	font-size: 12px;
+	font-size: 14px;
     letter-spacing: 2px;
 }
 p.error {
@@ -535,7 +535,7 @@ padding-bottom: 30px;
 #contents > div.collection-blurb h3,  #contents > div.collection-blurb h2, #contents > div.collection-blurb p {
 text-align: center;
 color: #a58252;
-font-size:12px;
+font-size:14px;
 letter-spacing: 2px;
 }
 #contents > div.collection-blurb > h2 {
@@ -553,7 +553,7 @@ top: -30px;
 }
 #contents > div.collection-blurb > h3 {
 background: #fff;
-width: 140px;
+width: 160px;
 margin: 0 auto;
 /* padding: 0 10px; */
 z-index: 2;
@@ -686,9 +686,10 @@ line-height: 1.4em;
 #store_locations div {
 height: 180px;
 background: #FDFDFA;/*fcfcf3*/
+width: 100%;
 }
 #store_locations div.mumbai { /*this one has eight addresses*/
-	height: 430px;
+	height: 440px;
 }
 div#ui-accordion-store_locations-panel-3 { /* bangalore one has 5 now */
   height: 200px;
