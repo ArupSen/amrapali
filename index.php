@@ -7,7 +7,7 @@ navbar();
 // the unique contents will go here up to the footer
 ?>
 <?php
-img_tag('home-page-for-tablet.jpg','','tablet');
+img_tag('home-page-for-tablet-bigtext.jpg','','tablet');
 ?>
 <!-- Section #1 / Intro -->
 <section id="first" class="story first" data-speed="8" data-type="background">    	
