@@ -788,9 +788,17 @@ div.exhibitions > div:nth-child(6) {
   /* stop bg images loading for small screens */
   #first, #second, #third, #fourth, #fifth, #first .symbols, #first .eternal {
     background: none;
+  }
 }
 #footer{}
-
+/* error 404 page */
+#error {
+  width: 724px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #a85;
+  padding: 40px 0;
+}
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio:0){
 /*	global rules*/
