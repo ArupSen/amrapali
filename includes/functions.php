@@ -65,7 +65,7 @@ function list_images($start, $end, $tiles)
 {
 	global $tile_image_path, $ext;
 	for ($i=$start; $i < $end; $i++) { 
-		echo '<li><a class="popup" '.popup_info($tiles[$i]).'><img src="'.$tile_image_path.$tiles[$i][0].'"'.add_alt($tiles[$i]).'width="277" height="277" /></a></li>'."\n";
+		echo '<li><a class="popup" '.popup_info($tiles[$i]).'><img src="'.$tile_image_path.$tiles[$i][0].$ext.'"'.add_alt($tiles[$i]).'width="277" height="277" /></a></li>'."\n";
 	}
 }
 
