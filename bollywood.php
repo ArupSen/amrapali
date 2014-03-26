@@ -13,8 +13,8 @@ navbar();
 require_once INCPATH.'spotlight_snippet.php';
 // the list items are objects
 $array_length = count($bollywood_photos);
-$thumbnail_path = 'http://yogarup.com/amrapali/images/bollywood/thumbnails/';
-$main_image_path = 'http://yogarup.com/amrapali/images/bollywood/';
+$thumbnail_path = 'http://amrapalijewels.com/images/bollywood/thumbnails/';
+$main_image_path = 'http://amrapalijewels.com/images/bollywood/';
 create_thumblist($bollywood_photos);			
 ?>
 			<li id='zoomin'></li>
