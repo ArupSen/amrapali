@@ -1,0 +1,38 @@
+# htaccess file for amrapali 
+# change to .htaccess when you're ready to put on the actual server
+
+
+redirect 301 /index.html http://www.amrapalijewels.com/index.php
+redirect 301 /collections.html http://www.amrapalijewels.com/collections.php
+redirect 301 /our-story.html http://www.amrapalijewels.com/story.php
+redirect 301 /news.html http://www.amrapalijewels.com/news.php
+redirect 301 /stores.html http://www.amrapalijewels.com/stores.php
+redirect 301 /hanuman.html http://www.amrapalijewels.com/limited_edition.php
+redirect 301 /gifts.html http://www.amrapalijewels.com/silver.php
+redirect 301 /fine-mughal.html http://www.amrapalijewels.com/fine_Masterpieces.php
+redirect 301 /our-work.html http://www.amrapalijewels.com/manufacturing.php
+redirect 301 /bollywood.html http://www.amrapalijewels.com/bollywood.php
+redirect 301 /awards.html http://www.amrapalijewels.com/awards.php
+redirect 301 /publication.html http://www.amrapalijewels.com/spotlight.php
+redirect 301 /exhibition.html http://www.amrapalijewels.com/exhibitions.php
+redirect 301 /career.html http://www.amrapalijewels.com/careers.php
+redirect 301 /enquiries.html http://www.amrapalijewels.com/contact.php
+redirect 301 /2007.html http://www.amrapalijewels.com/news.php
+redirect 301 /2008.html http://www.amrapalijewels.com/news.php
+redirect 301 /2009.html http://www.amrapalijewels.com/news.php
+redirect 301 /2010.html http://www.amrapalijewels.com/news.php
+redirect 301 /2011.html http://www.amrapalijewels.com/news.php
+redirect 301 /blog-post.html http://www.amrapalijewels.com/news.php
+redirect 301 /blog.html http://www.amrapalijewels.com/news.php
+redirect 301 /fine-contemporary.html http://www.amrapalijewels.com/fine_Masterpieces.php
+redirect 301 /fine-studded-victorian.html http://www.amrapalijewels.com/fine_Masterpieces.php
+redirect 301 /fine-traditional.html http://www.amrapalijewels.com/fine_Masterpieces.php
+redirect 301 /hollywood1.html http://www.amrapalijewels.com/hollywood.php
+redirect 301 /royal-photo-shoot.html http://amrapalijewels.com/news.php
+redirect 301 /silver-contemporary.html http://amrapalijwels.com/silver.php
+redirect 301 /silver-studded-victorian.html http://amrapalijwels.com/silver.php
+redirect 301 /silver-traditional.html http://amrapalijwels.com/silver.php
+redirect 301 /silver-tribal.html http://amrapalijwels.com/silver.php
+redirect 301 /*.htm http://www.amrapalijewels.com/stores.php
+ErrorDocument 404 http://www.amrapalijewels.com/404.php
+Options +MultiViews
