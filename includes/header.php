@@ -34,7 +34,7 @@ include_once DATAPATH.'meta_tags.php';
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<?php // leave in during development and remove once live ?>
-	<meta name="robots" content="noindex, nofollow">
+	<!--<meta name="robots" content="noindex, nofollow"> -->
 	
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
