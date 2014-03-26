@@ -3,7 +3,7 @@
 // this is the main horizontal navigation bar
 // $url_prefix = "http://yogarup.com/amrapali-dev/";
 // $url_prefix = "http://martnerandmowat.com";
-$url_prefix = "http://yogarup.com/amrapali/";
+$url_prefix = "http://amrapalijewels.com/";
 ?>
 <div id="navbar-bg">
 <ul id="navbar">
