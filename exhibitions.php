@@ -8,8 +8,6 @@ navbar();
 // the unique contents will go here up to the footer
 ?>
 <?php img_tag('exhibitions.jpg','','spotlight-logo'); ?>
-<?php require_once INCPATH.'spotlight-nav.php'; ?>
-<?php //img_tag('exhibitions.png','','exhibitions'); ?>
 <div class="exhibitions">
 <h3>HONG KONG</h3>
   <div>
