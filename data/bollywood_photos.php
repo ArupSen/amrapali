@@ -82,7 +82,7 @@ $bollywood_photos = array(
 	array('Sonam-Kapoor-in-Merak-necklace-from-Manish-Arora---Amrapali-AW-\'13-collection','Sonam Kapoor','October 2013',''),
 	array('Sonam-kapoor-in-peepul-leaf--Tribe-by-amrapali','Sonam Kapoor','',''),
 	array('Sonam-Kapoor-in-traditional-silver-gold-plated-flower-studs','Sonam Kapoor','',''),
-	array('Sonam-Kapoor-in-vintage-jewllery','August 2013','',''),
+	array('Sonam-Kapoor-in-vintage-jewllery','Sonam Kapoor','August 2013',''),
 	array('Sonam-Kapoor','Sonam Kapoor','August 2012',''),
 	array('Sonam-Kapoor1','Sonam Kapoor','July 2012',''),
 	array('sonam-kapoor2','Sonam Kapoor','August 2012',''),
