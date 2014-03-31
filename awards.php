@@ -3,7 +3,7 @@
 
 require_once 'inc_path.php';
 require_once INCPATH.'header.php';
-require_once DATAPATH.'awards_photos.php';
+require_once DATAPATH.'awards_sorted.php';
 navbar();
 
 // the unique contents will go here up to the footer
