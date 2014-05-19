@@ -61,5 +61,13 @@ $(function() {
 	};
 });
 </script>
+<script>
+// fades in the banner which links to the store
+$(function() {
+	setTimeout(function() {
+	$('.shop-popup').fadeIn();
+	}, 5000);
+});
+</script>
 </body>
 </html>
