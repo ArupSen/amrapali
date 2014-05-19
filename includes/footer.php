@@ -63,10 +63,15 @@ $(function() {
 </script>
 <script>
 // fades in the banner which links to the store
+// clicking on the button removes banner
 $(function() {
+	var $shop_pop = $('.shop-popup');
 	setTimeout(function() {
-	$('.shop-popup').fadeIn();
+	$shop_pop.fadeIn();
 	}, 5000);
+	$('.shop-popup button').on('click', function() {
+		$shop_pop.fadeOut();
+	});
 });
 </script>
 </body>
