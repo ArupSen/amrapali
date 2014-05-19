@@ -9,6 +9,9 @@ navbar();
 <?php
 img_tag('home-page-for-tablet-bigtext.jpg','','tablet');
 ?>
+<div class="shop-popup">
+	<a href="http://www.tribebyamrapali.com/" target="_blank"><?php img_tag('POP-UP.png','','shop-pop-up'); ?></a>
+</div>
 <!-- Section #1 / Intro -->
 <section id="first" class="story first" data-speed="8" data-type="background">    	
 	<div class="symbols" data-type="sprite" data-offsetY="600" data-speed="4"></div>		<!-- data-type="background" data-offsetY="650" data-Xposition="50%" data-speed="4" -->
