@@ -10,6 +10,7 @@ navbar();
 img_tag('home-page-for-tablet-bigtext.jpg','','tablet');
 ?>
 <div class="shop-popup">
+	<button>X</button>
 	<a href="http://www.tribebyamrapali.com/" target="_blank"><?php img_tag('POP-UP.png','','shop-pop-up'); ?></a>
 </div>
 <!-- Section #1 / Intro -->
