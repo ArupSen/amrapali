@@ -290,6 +290,15 @@ right: -240px;
   right: -275px;
 }
 
+/*pop up box for link to shop*/
+div.shop-popup {
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 30;
+display: none;
+}
+
 /*contact page*/
 .logo {
 	width: 1184px;
