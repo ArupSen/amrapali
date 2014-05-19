@@ -298,6 +298,15 @@ right: 20px;
 z-index: 30;
 display: none;
 }
+.shop-popup button {
+position: absolute;
+border: none;
+background: transparent;
+right: 7px;
+top: 8px;
+font-size: 17px;
+outline: none;
+}
 
 /*contact page*/
 .logo {
